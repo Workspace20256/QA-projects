@@ -21,22 +21,28 @@ WHERE country = 'Korea';
 ## Select all users
 ```sql
 SELECT * FROM users;
-
+```
 ## Find user by email
+```sql
 SELECT * FROM users
 WHERE email = 'test@gmail.com';
-
+```
 ## Count all users
+```sql
 SELECT COUNT(*) FROM users;
-
+```
 ## Find users from specific country
+```sql
 SELECT * FROM users
 WHERE country = 'Korea';
-
+```
 ## Sort users by registration date
+```sql
 SELECT * FROM users
 ORDER BY created_at DESC;
-
+```
 ## Find active users
+```sql
 SELECT * FROM users
 WHERE status = 'active';
+```
